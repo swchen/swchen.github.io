@@ -1,0 +1,32 @@
+a,
+a:link {
+  cursor: pointer;
+}
+body {
+  padding-top: 60px;
+}
+table tfoot th,
+table tbody th {
+  border-top: 1px solid #ddd;
+}
+.thumbnail h2 {
+  margin-bottom: 10px;
+}
+.thumbnail p {
+  font-size: 13px;
+  line-height: 22px;
+}
+.date {
+  float: right;
+  text-align: right;
+  text-shadow: -1px -1px 1px #000;
+  padding: 3px;
+  margin: 0 0 5px 20px;
+  position: relative;
+}
+.date span {
+  display: block;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: bold;
+}

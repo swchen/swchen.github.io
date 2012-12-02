@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <!-- Our site title and description -->
+    <title>Blog | swchen</title>
+    <meta name="description" content="本站点使用&lt;a href=&quot;http://docpad.org&quot; target=&quot;_blank&quot; title=&quot;We use DocPad as our Content Management System&quot;&gt;DocPad&lt;/a&gt;生成, UI框架使用&lt;a href=&quot;http://twitter.github.com/bootstrap/&quot; target=&quot;_blank&quot;&gt;Twitter Bootstrap&lt;/a&gt;. 主要用于个人学习和笔记." />
+    <meta name="keywords" content="JavaScript, Git, DocPad, CoffeeScript, Twitter Bootstrap, Blog" />
+    <meta name="author" content="swchen" />
+
+    <!-- Output DocPad produced meta elements -->
+    <meta http-equiv="X-Powered-By" content="DocPad"/>
+
+    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+
+    <!-- Shims: IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap-responsive.min.css" /><link rel="stylesheet" href="/styles/style.css" />
+</head>
+<body>
+    <!-- Markup -->
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="/">Home</a>
+                <ul class="nav">
+                    
+                        <li typeof="sioc:Page" about="/pages/posts" class="active">
+                            <a href="/pages/posts" property="dc:title">Blog</a>
+                        </li>
+                    
+                        <li typeof="sioc:Page" about="/pages/notes" class="">
+                            <a href="/pages/notes" property="dc:title">学习笔记</a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <section id="content" class="content">
+            <div class="row-fluid">
+    <div class="span3 thumbnail" >
+        <h2>About</h2>
+        <address>
+            作者: <strong>swchen</strong><br>
+            联系作者: <a href="mailto:swchenforgetful@gmail.com">swchenforgetful@gmail.com</a>
+        </address>
+        <p>本站点使用<a href="http://docpad.org" target="_blank" title="We use DocPad as our Content Management System">DocPad</a>生成, UI框架使用<a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>. 主要用于个人学习和笔记.</p>
+        <p><a class="btn btn-info" href=https://github.com/swchen/swchen.github.com target="_blank">Fork me on Github</a></p>
+    </div>
+    <article id="page" class="page span6">
+        <div class="page-content"><nav class="linklist">
+    
+        <li><span>Dec 02 2012</span>
+        &raquo;
+        <a href="/posts/2012-09-11">This is a Blog Post</a></li>
+    
+        <li><span>Dec 02 2012</span>
+        &raquo;
+        <a href="/posts/2012-05-11">This is a Blog Post</a></li>
+    
+        <li><span>Dec 02 2012</span>
+        &raquo;
+        <a href="/posts/2011-04-11">This is a Blog Post</a></li>
+    
+</nav></div>
+    </article>
+</div>
+        </section>
+    </div><!-- /container -->
+
+    <hr>
+    <footer class="footer" style="text-align:center; margin:40px 0">
+        <p>
+            Created with love and affection using 
+            <a href="http://docpad.org" target="_blank" title="We use DocPad as our Content Management System">DocPad</a>,
+            <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>.
+        </p>
+        <p>
+            © 2012 swchen, Powered by
+            <a href="https://github.com/" target="_blank"/>Github</a>
+            <p>
+                Unless stated otherwise, all content is licensed under the
+                <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution License</a>
+                and code licensed under the 
+                <a href="http://creativecommons.org/licenses/MIT/" target="_blank">MIT License</a>, <a href="http://swchen.github.com/" target="_blank">©swchen</a>
+            </p>
+        </p>
+    </footer>
+    <!-- Scripts -->
+    <script  src="/socket.io/socket.io.js"></script><script >var socket = io.connect('/docpad-live-reload');
+socket.on('regenerated',function(){
+	document.location.reload();
+});</script><script defer="defer"  src="/vendor/jquery.js"></script><script defer="defer"  src="/vendor/log.js"></script><script defer="defer"  src="/vendor/modernizr.js"></script><script defer="defer"  src="/scripts/script.js"></script>
+</body>
+</html>
