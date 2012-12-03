@@ -3,7 +3,7 @@
     <title>swchen</title>
     <link href="http://swchen.github.com//atom.xml" rel="self"/>
     <link href="http://swchen.github.com/"/>
-    <updated>2012-12-02T16:48:26.952Z</updated>
+    <updated>2012-12-03T13:30:29.163Z</updated>
     <id>http://swchen.github.com/</id>
     <author>
         <name>swchen</name>
@@ -102,7 +102,112 @@
                 Unless stated otherwise, all content is licensed under the
                 &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot; target=&quot;_blank&quot;&gt;Creative Commons Attribution License&lt;/a&gt;
                 and code licensed under the 
-                &lt;a href=&quot;http://creativecommons.org/licenses/MIT/&quot; target=&quot;_blank&quot;&gt;MIT License&lt;/a&gt;, &lt;a href=&quot;http://swchen.github.com/&quot; target=&quot;_blank&quot;&gt;©swchen&lt;/a&gt;
+                &lt;a href=&quot;http://creativecommons.org/licenses/MIT/&quot; target=&quot;_blank&quot;&gt;MIT License&lt;/a&gt;, ©&lt;a href=&quot;http://swchen.github.com/&quot; target=&quot;_blank&quot;&gt;swchen&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;/p&gt;
+    &lt;/footer&gt;
+    &lt;!-- Scripts --&gt;
+    &lt;script  src=&quot;/socket.io/socket.io.js&quot;&gt;&lt;/script&gt;&lt;script &gt;var socket = io.connect('/docpad-live-reload');
+socket.on('regenerated',function(){
+	document.location.reload();
+});&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/log.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/modernizr.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+        </entry>
+    
+        <entry>
+            <title>This is a Blog Post</title>
+            <link href="http://swchen.github.com///posts/2012-05-15"/>
+            <updated>2012-12-03T13:39:44.458Z</updated>
+            <id>http://swchen.github.com///posts/2012-05-15</id>
+            <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;!-- Meta --&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+    &lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 --&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+    &lt;!-- Our site title and description --&gt;
+    &lt;title&gt;This is a Blog Post | swchen&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;本站点使用&amp;lt;a href=&amp;quot;http://docpad.org&amp;quot; target=&amp;quot;_blank&amp;quot; title=&amp;quot;We use DocPad as our Content Management System&amp;quot;&amp;gt;DocPad&amp;lt;/a&amp;gt;生成, UI框架使用&amp;lt;a href=&amp;quot;http://twitter.github.com/bootstrap/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Twitter Bootstrap&amp;lt;/a&amp;gt;. 主要用于个人学习和笔记.&quot; /&gt;
+    &lt;meta name=&quot;keywords&quot; content=&quot;JavaScript, Git, DocPad, CoffeeScript, Twitter Bootstrap, Blog&quot; /&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;swchen&quot; /&gt;
+
+    &lt;!-- Output DocPad produced meta elements --&gt;
+    &lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad&quot;/&gt;
+
+    &lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+    &lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;ico/favicon.ico&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;ico/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;ico/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;ico/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;ico/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+    &lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+    &lt;!--[if lt IE 9]&gt;
+        &lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+
+    &lt;!-- Styles --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;/vendor/bootstrap/css/bootstrap.min.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;/vendor/bootstrap/css/bootstrap-responsive.min.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- Markup --&gt;
+    &lt;div class=&quot;navbar navbar-fixed-top&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;/&quot;&gt;Home&lt;/a&gt;
+                &lt;ul class=&quot;nav&quot;&gt;
+                    
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/posts&quot; property=&quot;dc:title&quot;&gt;Blog&lt;/a&gt;
+                        &lt;/li&gt;
+                    
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/notes&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/notes&quot; property=&quot;dc:title&quot;&gt;学习笔记&lt;/a&gt;
+                        &lt;/li&gt;
+                    
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+            &lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+    &lt;h1&gt;This is a Blog Post&lt;/h1&gt;
+    &lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+    
+&lt;/footer&gt;
+        &lt;/section&gt;
+    &lt;/div&gt;&lt;!-- /container --&gt;
+
+    &lt;hr&gt;
+    &lt;footer class=&quot;footer&quot; style=&quot;text-align:center; margin:40px 0&quot;&gt;
+        &lt;p&gt;
+            Created with love and affection using 
+            &lt;a href=&quot;http://docpad.org&quot; target=&quot;_blank&quot; title=&quot;We use DocPad as our Content Management System&quot;&gt;DocPad&lt;/a&gt;,
+            &lt;a href=&quot;http://twitter.github.com/bootstrap/&quot; target=&quot;_blank&quot;&gt;Twitter Bootstrap&lt;/a&gt;.
+        &lt;/p&gt;
+        &lt;p&gt;
+            © 2012 swchen, Powered by
+            &lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot;/&gt;Github&lt;/a&gt;
+            &lt;p&gt;
+                Unless stated otherwise, all content is licensed under the
+                &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot; target=&quot;_blank&quot;&gt;Creative Commons Attribution License&lt;/a&gt;
+                and code licensed under the 
+                &lt;a href=&quot;http://creativecommons.org/licenses/MIT/&quot; target=&quot;_blank&quot;&gt;MIT License&lt;/a&gt;, ©&lt;a href=&quot;http://swchen.github.com/&quot; target=&quot;_blank&quot;&gt;swchen&lt;/a&gt;
             &lt;/p&gt;
         &lt;/p&gt;
     &lt;/footer&gt;
@@ -119,7 +224,7 @@ socket.on('regenerated',function(){
         <entry>
             <title>This is a Blog Post</title>
             <link href="http://swchen.github.com///posts/2012-05-11"/>
-            <updated>2012-12-02T07:25:28.000Z</updated>
+            <updated>2012-12-03T13:30:02.000Z</updated>
             <id>http://swchen.github.com///posts/2012-05-11</id>
             <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -207,7 +312,7 @@ socket.on('regenerated',function(){
                 Unless stated otherwise, all content is licensed under the
                 &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot; target=&quot;_blank&quot;&gt;Creative Commons Attribution License&lt;/a&gt;
                 and code licensed under the 
-                &lt;a href=&quot;http://creativecommons.org/licenses/MIT/&quot; target=&quot;_blank&quot;&gt;MIT License&lt;/a&gt;, &lt;a href=&quot;http://swchen.github.com/&quot; target=&quot;_blank&quot;&gt;©swchen&lt;/a&gt;
+                &lt;a href=&quot;http://creativecommons.org/licenses/MIT/&quot; target=&quot;_blank&quot;&gt;MIT License&lt;/a&gt;, ©&lt;a href=&quot;http://swchen.github.com/&quot; target=&quot;_blank&quot;&gt;swchen&lt;/a&gt;
             &lt;/p&gt;
         &lt;/p&gt;
     &lt;/footer&gt;
@@ -224,7 +329,7 @@ socket.on('regenerated',function(){
         <entry>
             <title>This is a Blog Post</title>
             <link href="http://swchen.github.com///posts/2011-04-11"/>
-            <updated>2012-12-02T09:33:16.000Z</updated>
+            <updated>2012-12-03T13:30:02.000Z</updated>
             <id>http://swchen.github.com///posts/2011-04-11</id>
             <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -315,7 +420,115 @@ socket.on('regenerated',function(){
                 Unless stated otherwise, all content is licensed under the
                 &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot; target=&quot;_blank&quot;&gt;Creative Commons Attribution License&lt;/a&gt;
                 and code licensed under the 
-                &lt;a href=&quot;http://creativecommons.org/licenses/MIT/&quot; target=&quot;_blank&quot;&gt;MIT License&lt;/a&gt;, &lt;a href=&quot;http://swchen.github.com/&quot; target=&quot;_blank&quot;&gt;©swchen&lt;/a&gt;
+                &lt;a href=&quot;http://creativecommons.org/licenses/MIT/&quot; target=&quot;_blank&quot;&gt;MIT License&lt;/a&gt;, ©&lt;a href=&quot;http://swchen.github.com/&quot; target=&quot;_blank&quot;&gt;swchen&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;/p&gt;
+    &lt;/footer&gt;
+    &lt;!-- Scripts --&gt;
+    &lt;script  src=&quot;/socket.io/socket.io.js&quot;&gt;&lt;/script&gt;&lt;script &gt;var socket = io.connect('/docpad-live-reload');
+socket.on('regenerated',function(){
+	document.location.reload();
+});&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/log.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/modernizr.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+        </entry>
+    
+        <entry>
+            <title>This is a Blog Post</title>
+            <link href="http://swchen.github.com///posts/2011-04-1"/>
+            <updated>2012-12-03T13:39:44.452Z</updated>
+            <id>http://swchen.github.com///posts/2011-04-1</id>
+            <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;!-- Meta --&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+    &lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 --&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+    &lt;!-- Our site title and description --&gt;
+    &lt;title&gt;This is a Blog Post | swchen&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;本站点使用&amp;lt;a href=&amp;quot;http://docpad.org&amp;quot; target=&amp;quot;_blank&amp;quot; title=&amp;quot;We use DocPad as our Content Management System&amp;quot;&amp;gt;DocPad&amp;lt;/a&amp;gt;生成, UI框架使用&amp;lt;a href=&amp;quot;http://twitter.github.com/bootstrap/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Twitter Bootstrap&amp;lt;/a&amp;gt;. 主要用于个人学习和笔记.&quot; /&gt;
+    &lt;meta name=&quot;keywords&quot; content=&quot;JavaScript, Git, DocPad, CoffeeScript, Twitter Bootstrap, Blog&quot; /&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;swchen&quot; /&gt;
+
+    &lt;!-- Output DocPad produced meta elements --&gt;
+    &lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad&quot;/&gt;
+
+    &lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+    &lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;ico/favicon.ico&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;ico/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;ico/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;ico/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;ico/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+    &lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+    &lt;!--[if lt IE 9]&gt;
+        &lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+
+    &lt;!-- Styles --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;/vendor/bootstrap/css/bootstrap.min.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;/vendor/bootstrap/css/bootstrap-responsive.min.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- Markup --&gt;
+    &lt;div class=&quot;navbar navbar-fixed-top&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;/&quot;&gt;Home&lt;/a&gt;
+                &lt;ul class=&quot;nav&quot;&gt;
+                    
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/posts&quot; property=&quot;dc:title&quot;&gt;Blog&lt;/a&gt;
+                        &lt;/li&gt;
+                    
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/notes&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/notes&quot; property=&quot;dc:title&quot;&gt;学习笔记&lt;/a&gt;
+                        &lt;/li&gt;
+                    
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+            &lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+    &lt;h1&gt;This is a Blog Post&lt;/h1&gt;
+    &lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a &lt;strong&gt;blog post&lt;/strong&gt;
+
+&lt;/p&gt;
+&lt;h1&gt;Test&lt;/h1&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+    
+&lt;/footer&gt;
+        &lt;/section&gt;
+    &lt;/div&gt;&lt;!-- /container --&gt;
+
+    &lt;hr&gt;
+    &lt;footer class=&quot;footer&quot; style=&quot;text-align:center; margin:40px 0&quot;&gt;
+        &lt;p&gt;
+            Created with love and affection using 
+            &lt;a href=&quot;http://docpad.org&quot; target=&quot;_blank&quot; title=&quot;We use DocPad as our Content Management System&quot;&gt;DocPad&lt;/a&gt;,
+            &lt;a href=&quot;http://twitter.github.com/bootstrap/&quot; target=&quot;_blank&quot;&gt;Twitter Bootstrap&lt;/a&gt;.
+        &lt;/p&gt;
+        &lt;p&gt;
+            © 2012 swchen, Powered by
+            &lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot;/&gt;Github&lt;/a&gt;
+            &lt;p&gt;
+                Unless stated otherwise, all content is licensed under the
+                &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot; target=&quot;_blank&quot;&gt;Creative Commons Attribution License&lt;/a&gt;
+                and code licensed under the 
+                &lt;a href=&quot;http://creativecommons.org/licenses/MIT/&quot; target=&quot;_blank&quot;&gt;MIT License&lt;/a&gt;, ©&lt;a href=&quot;http://swchen.github.com/&quot; target=&quot;_blank&quot;&gt;swchen&lt;/a&gt;
             &lt;/p&gt;
         &lt;/p&gt;
     &lt;/footer&gt;
